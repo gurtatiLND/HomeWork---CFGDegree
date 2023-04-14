@@ -35,16 +35,19 @@ THEORY QUESTIONS
 The SDLC is a software development life cycle, which means it’s a process or methodology which helps create high-quality software in the shortest time with the lowest amount of money.
 
 
+
 | 1.2   What exception is thrown when you divide a number by 0? | 1 mark |
 | ----------- | ----------- |
 
 ZeroDivisionError, which is a built-in Python exception. 
 
 
+
 | 1.3   What is the git command that moves code from the local repository to the remote repository? | 1 mark |
 | ----------- | ----------- |
 
 git push
+
 
 
 | 1.4   What does NULL represent in a database? | 1 mark |
@@ -70,6 +73,7 @@ import pdb; pdb.set_trace(). We can use it in a really good IDE with Python no l
 - Import pdb; pdb.set_trace() - (Python DeBugger) this is built into the standard Python Library which is mean that we can use it anytime anywhere. Plus it works in the command line.
 
 
+
 | 1.7   Looking at the following code, describe a case where this function would throw an error when called. Describe this case and talk about what exception handling you’ll need. | 5 marks |
 | ----------- | ----------- |
 ```buildoutcfg
@@ -80,6 +84,7 @@ def can_pay(price, cash_given):
         return False
 ```
 I think that function can throw a TypeError when parameters will be not  digits. For example, it will be letters (problems with the type of object). In the except block(try/except)  under the function an exception will be raised and handled by the program with the sentence “TypeError: price and сash must be digits.”
+
 
 
 | 1.8   What is git branching? Explain how it is used in Git.  | 6 marks |
