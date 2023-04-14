@@ -40,9 +40,8 @@ import pdb; pdb.set_trace(). We can use it in a really good IDE with Python no l
 
 **1.7**
 
-*Looking at the following code, describe a case where this function would throw an error when called. Describe this case and talk about what exception handling you’ll need.*
-
-![image info](./Studying/CFGDEGREE full-stack/Assessment/2 assessment/assesment_case.png)
+*Looking at the following code, describe a case where this function would throw an error when called.*
+*Describe this case and talk about what exception handling you’ll need.*
 
 I think that function can throw a TypeError when parameters will be not  digits. For example, it will be letters (problems with the type of object). In the except block(try/except)  under the function an exception will be raised and handled by the program with the sentence “TypeError: price and сash must be digits.”
 
