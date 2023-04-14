@@ -102,13 +102,26 @@ In my understanding, git branching is used to create a new addition branch from 
 | - **What components or tools would you potentially use?**
 
 Key requirements:
-- friendly interface of the website
-- menu managment: The system should allow the restaurant staff to easily manage and update the menu items
-- secure and easy payment system
-- order placement and tracking process
-- order history
-- security and data protection
-- customer support
+- first of all to show the notice for all clients about allergies: if you have allergies we kindly ask you visit your local + order directly with a team member
+- the button “order click&collect” and “order delivery” firt of all on the screen:
+A: when the user click on “order click&collect” button then he see question: 
+     - find our nearest restaurant
+     - choose restaurant and then see all options for this particular restaurant with price
+     - click and add meal to the busket
+     - then click on the bucket and made a checkout
+     - choose paymant method and pay
+      
+B: when the user click on “order delivery”: 
+   - see all options of meals
+   - click and add meal to the busket
+   - then click on the bucket and made a checkout
+   - choose where to deliver 
+   - confirm the total price for food and delivery
+   - choose paymant method and pay
+- Get notifications from restaurant about driver and his estimated time, 
+or about readiness of the order
+- ask a review from client few hours later
+
 
 Main considerations and problems:
 - user interface should be intuitive, easy to navigate, and visually appealing. It must be easy to reach from different devices such as desktops, mobile phones, and tablets.
