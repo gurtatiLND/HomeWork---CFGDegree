@@ -24,31 +24,38 @@ THEORY QUESTIONS
 ---
 
 
+
 ### Section 1: Theory Questions [31 marks]
 
 
+
 | 1.1 What does SDLC stand for? | 1 mark |
+| ----------- | ----------- |
 
 The SDLC is a software development life cycle, which means it’s a process or methodology which helps create high-quality software in the shortest time with the lowest amount of money.
 
 
 | 1.2   What exception is thrown when you divide a number by 0? | 1 mark |
+| ----------- | ----------- |
 
 ZeroDivisionError, which is a built-in Python exception. 
 
 
 | 1.3   What is the git command that moves code from the local repository to the remote repository? | 1 mark |
+| ----------- | ----------- |
 
 git push
 
 
 | 1.4   What does NULL represent in a database? | 1 mark |
+| ----------- | ----------- |
 
 NULL isn’t a specific value but is used to signify missing or unknown   values.
 
 
 ​
 | 1.5   Name 2 responsibilities of the Scrum Master | 2 marks |
+| ----------- | ----------- |
 
 - The SM is responsible for maintaining and properly establishing Scrum, and explaining all that is needed to understand about theory and practice parts of Scrum for teams and the organization.
 - The second responsibility is to help the Scrum teams to be effective within the Scrum framework.
@@ -56,6 +63,7 @@ NULL isn’t a specific value but is used to signify missing or unknown   values
 
 
 | 1.6   Name 2 debugging methods, and when you would use them. | 4 marks |
+| ----------- | ----------- |
 
 - Breakpoint() - this is a built - in debugging function which is new in Python 3.7 and it’s equivalent to the older 
 import pdb; pdb.set_trace(). We can use it in a really good IDE with Python no less than 3.7. 
@@ -75,6 +83,7 @@ I think that function can throw a TypeError when parameters will be not  digits.
 
 
 | 1.8   What is git branching? Explain how it is used in Git.  | 6 marks |
+| ----------- | ----------- |
 
 In my understanding, git branching is used to create a new addition branch from the main one. And it’s not only the creation of the branch but this is a place where a developer can keep changes, edit them, stage and commit process. It helps first of all to keep the main branch free from unchecked code and helps to work in both of these branches.
 
