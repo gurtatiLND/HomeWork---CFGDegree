@@ -26,17 +26,17 @@ NULL isn’t a specific value but is used to signify missing or unknown   values
 
 *Name 2 responsibilities of the Scrum Master*
 
--The SM is responsible for maintaining and properly establishing Scrum, and explaining all that is needed to understand about theory and practice parts of Scrum for teams and the organization.
--The second responsibility is to help the Scrum teams to be effective within the Scrum framework.
+- The SM is responsible for maintaining and properly establishing Scrum, and explaining all that is needed to understand about theory and practice parts of Scrum for teams and the organization.
+- The second responsibility is to help the Scrum teams to be effective within the Scrum framework.
 
 
 **1.6**
 
 *Name 2 debugging methods, and when you would use them.*
 
--Breakpoint() - this is a built - in debugging function which is new in Python 3.7 and it’s equivalent to the older 
+- Breakpoint() - this is a built - in debugging function which is new in Python 3.7 and it’s equivalent to the older 
 import pdb; pdb.set_trace(). We can use it in a really good IDE with Python no less than 3.7. 
--Import pdb; pdb.set_trace() - (Python DeBugger) this is built into the standard Python Library which is mean that we can use it anytime anywhere. Plus it works in the command line.
+- Import pdb; pdb.set_trace() - (Python DeBugger) this is built into the standard Python Library which is mean that we can use it anytime anywhere. Plus it works in the command line.
 
 **1.7**
 
@@ -54,9 +54,9 @@ In my understanding, git branching is used to create a new addition branch from 
 
 *Design a restaurant ordering system.*
 *You do not need to write code, but describe a high-level approach:*
-*Draw a list of key requirements*
-*What are your main considerations and problems?*
-*What components or tools would you potentially use?*
+* - Draw a list of key requirements*
+* - What are your main considerations and problems?*
+* - What components or tools would you potentially use?*
 
 
 
