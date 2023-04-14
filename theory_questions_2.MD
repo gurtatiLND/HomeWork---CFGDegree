@@ -104,6 +104,7 @@ In my understanding, git branching is used to create a new addition branch from 
 Key requirements:
 - first of all to show the notice for all clients about allergies: if you have allergies we kindly ask you visit your local + order directly with a team member
 - the button “order click&collect” and “order delivery” firt of all on the screen:
+
 A: when the user click on “order click&collect” button then he see question: 
      - find our nearest restaurant
      - choose restaurant and then see all options for this particular restaurant with price
