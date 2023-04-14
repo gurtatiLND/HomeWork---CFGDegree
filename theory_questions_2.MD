@@ -78,6 +78,6 @@ Main considerations and problems:
 
 Components or tools which will be usefull:
 - use different reliable payment system: Paypal, Strype 
-- create system which will combine all components in one for better connection to each other and data exchange.
+- API: create system which will combine all components in one for better connection to each other and data exchange.
 - security tools
 - Jira, Trello or anything like these for manage and track the development process
