@@ -54,9 +54,9 @@ In my understanding, git branching is used to create a new addition branch from 
 
 *Design a restaurant ordering system.*
 *You do not need to write code, but describe a high-level approach:*
-* - Draw a list of key requirements*
-* - What are your main considerations and problems?*
-* - What components or tools would you potentially use?*
+- *Draw a list of key requirements*
+- *What are your main considerations and problems?*
+- *What components or tools would you potentially use?*
 
 
 
