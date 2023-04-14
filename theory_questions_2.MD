@@ -1,6 +1,31 @@
-**1.1**
+# CFGDEGREE
+​
+### FOUNDATION ASSESSMENT II MATERIAL RELEASE
+​
+THEORY QUESTIONS
+​
+| Section | Mark |
+| ----------- | ----------- |
+| *Theory Questions* | *31* |
+| Concept Questions | 19 |
+| Python Challenge | 25 |
+| SQL Challenge | 25 |
+| Total | 100 |
+​
+**Important notes:**
 
-*What does SDLC stand for?*
+- This document shares the first section of the Foundation Assessment II which is composed of 9 Theory Questions.
+- It is worth just under a third of your assessment mark
+  You have 24 hours before the assessment to prepare.
+- If any plagiarism is found in how you choose to answer a question you will receive a 0,
+  and the instance will be recorded. Consequences will occur if this is a repeated offence.
+  You can remind yourself of the plagiarism policy [here](https://drive.google.com/file/d/1k9UaGOR7hx54QRZ8jvp2jtC4P-8_Rs4F/view?usp=sharing)
+​
+---
+
+### Section 1: Theory Questions [31 marks]
+
+| 1.1 What does SDLC stand for? | 1 mark |
 
 The SDLC is a software development life cycle, which means it’s a process or methodology which helps create high-quality software in the shortest time with the lowest amount of money.
 
