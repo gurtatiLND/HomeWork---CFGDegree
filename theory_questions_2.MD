@@ -69,15 +69,15 @@ Key requirements:
 - customer support
 
 Main considerations and problems:
--User interface should be intuitive, easy to navigate, and visually appealing. It must be easy to reach from different devices such as desktops, mobile phones, and tablets.
--Problems with order managment: tracking order status, sending notifications to customers.
--could be problems with updating actual items, removing them and adding them in real time.
--support different payment methods
--data security and privacy
--user support and feedback
+- user interface should be intuitive, easy to navigate, and visually appealing. It must be easy to reach from different devices such as desktops, mobile phones, and tablets.
+- problems with order managment: tracking order status, sending notifications to customers.
+- could be problems with updating actual items, removing them and adding them in real time.
+- support different payment methods
+- data security and privacy
+- user support and feedback
 
 Components or tools which will be usefull:
--use different reliable payment system: Paypal, Strype 
--create system which will combine all components in one for better connection to each other and data exchange.
--security tools
--Jira, Trello or anything like these for manage and track the development process
+- use different reliable payment system: Paypal, Strype 
+- create system which will combine all components in one for better connection to each other and data exchange.
+- security tools
+- Jira, Trello or anything like these for manage and track the development process
