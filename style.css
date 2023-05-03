@@ -1,0 +1,83 @@
+html {
+    font-family: 'Open+Sans', sans-serif;
+    box-sizing: border-box;
+    color: rgb(13, 10, 10);
+}
+
+body {
+    background-color: #DEDEA7;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-weight: bolder;
+    font-size:30px;
+    text-align: center;
+    color: #BE5A83;
+    margin-bottom: 35px;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+p{
+    font-size: 15px;
+}
+
+.input{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+.sub-button {
+    background-color: #E06469;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid #E06469;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 100%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: auto;
+  }
+
+#wrapper {
+	width: 420px;
+	height: 425px;
+	/*color: white;*/
+	margin: 0 auto;
+	margin-top: 40px;
+	border: 1px solid #BE5A83;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	background-color: #F2B6A0;
+	box-shadow:0 20px 50px #BE5A83;
+    border-radius: 12px;
+}
+
+#parent {
+    width: calc(140px * 3);
+    height: auto;
+    overflow: hidden; /* or any clear-fix snippet */
+}
+
+.child {
+    float: left;
+    width: 170px;
+    height: 40px;
+    /*background-color: pink;*/
+}
+
