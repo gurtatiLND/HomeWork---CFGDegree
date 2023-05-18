@@ -1,4 +1,4 @@
-const Unsuccess = ({
+const LoginUnsuccessScreen = ({
     returnToLoginFormHandle,
 }) => {
     return (
@@ -12,4 +12,4 @@ const Unsuccess = ({
     );
 }
  
-export default Unsuccess;
+export default LoginUnsuccessScreen;

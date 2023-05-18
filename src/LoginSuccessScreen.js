@@ -1,4 +1,4 @@
- const Welcome = ({
+ const LoginSuccessScreen = ({
     returnToLoginFormHandle,
  }) => {
     return (
@@ -10,5 +10,5 @@
     );
 }
 
-export default Welcome;
+export default LoginSuccessScreen;
 

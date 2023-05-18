@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Welcome from './Welcome';
-import Unsuccess from './Unsuccess';
+import LoginSuccessScreen from './LoginSuccessScreen';
+import LoginUnsuccessScreen from './LoginUnsuccessScreen';
 
 const LOGIN = 'abc@mail.com';
 const PASSWORD = 'qwer1234';
@@ -62,10 +62,13 @@ const Login = () => {
                 </div>
             }
             {currentForm === STATES.LOGIN_SUCCESS &&
-                <Welcome returnToLoginFormHandle={returnToLoginFormHandle} />
+                <LoginSuccessScreen 
+                    returnToLoginFormHandle={returnToLoginFormHandle} />
             } 
             {currentForm === STATES.LOGIN_UNSUCCESS && 
-                <Unsuccess returnToLoginFormHandle={returnToLoginFormHandle} />
+                <LoginUnsuccessScreen
+                    returnToLoginFormHandle={returnToLoginFormHandle}
+                />
             }
         </>
     )
