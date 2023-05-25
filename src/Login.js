@@ -5,7 +5,7 @@ import { useDispatch } from 'react-redux';
 import { login, logout } from './userSlice';
 
 const LOGIN = 'abc@mail.com';
-const PASSWORD = 'qwer1234';
+const PASSWORD = 'qw12';
 const STATES = {
     LOGIN_FORM: 'LOGIN_FORM',
     LOGIN_SUCCESS: 'LOGIN_SUCCESS',
@@ -41,8 +41,6 @@ const Login = () => {
 
         dispatch(login({
             name:name,
-            email:email,
-            password:password,
             loggedIn: true,
             })
         );
@@ -58,7 +56,7 @@ const Login = () => {
                         <input
                             value={name}
                             type="name"
-                            placeholder="Julia"
+                            placeholder="Name"
                             id="name"
                             name="name"
                             onChange={(e) => setName(e.target.value)}
@@ -87,7 +85,6 @@ const Login = () => {
             }
             {currentForm === STATES.LOGIN_SUCCESS &&
                 <LoginSuccessScreen 
-                    user_name={name}
                     returnToLoginFormHandle={returnToLoginFormHandle} />
             } 
             {currentForm === STATES.LOGIN_UNSUCCESS && 
