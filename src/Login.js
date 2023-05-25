@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import LoginSuccessScreen from './LoginSuccessScreen';
 import LoginUnsuccessScreen from './LoginUnsuccessScreen';
+import { useDispatch } from 'react-redux';
+import { login, logout } from './userSlice';
 
 const LOGIN = 'abc@mail.com';
 const PASSWORD = 'qwer1234';
@@ -11,6 +13,7 @@ const STATES = {
 };
 
 const Login = () => {
+    const [ name, setName] = useState('');
     const [ email, setEmail] = useState('');
     const [ pass, setPass] = useState('');
     const [currentForm, setCurrentForm] = useState(STATES.LOGIN_FORM);
@@ -24,13 +27,25 @@ const Login = () => {
         }
     };
 
+    const dispatch = useDispatch();
+
     const returnToLoginFormHandle = () => {
         setCurrentForm(STATES.LOGIN_FORM);
+
+        dispatch(logout());
     };
 
     //use this to prevent reloading
     const handleSubmit = (e) => {
         e.preventDefault(); 
+
+        dispatch(login({
+            name:name,
+            email:email,
+            password:password,
+            loggedIn: true,
+            })
+        );
     };
 
     return (
@@ -39,7 +54,16 @@ const Login = () => {
                 <div className='auth-form-container'>
                     <h2>Login Page</h2>
                     <form className="login-form" onSubmit={handleSubmit}>
-                        <label htmlFor="email">Enter name:</label>
+                    <label htmlFor="name">Enter name:</label>
+                        <input
+                            value={name}
+                            type="name"
+                            placeholder="Julia"
+                            id="name"
+                            name="name"
+                            onChange={(e) => setName(e.target.value)}
+                        />
+                        <label htmlFor="email">Enter email:</label>
                         <input
                             value={email}
                             type="email"
@@ -63,6 +87,7 @@ const Login = () => {
             }
             {currentForm === STATES.LOGIN_SUCCESS &&
                 <LoginSuccessScreen 
+                    user_name={name}
                     returnToLoginFormHandle={returnToLoginFormHandle} />
             } 
             {currentForm === STATES.LOGIN_UNSUCCESS && 
