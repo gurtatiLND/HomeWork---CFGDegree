@@ -21,6 +21,12 @@ const Login = () => {
     // show the conditions for email and password
     const validateForm = () => {
         if (email === LOGIN && pass === PASSWORD) {
+            dispatch(
+                login({
+                    name: name,
+                    loggedIn: true,
+                }),
+            );
             setCurrentForm(STATES.LOGIN_SUCCESS);
         } else {
             setCurrentForm(STATES.LOGIN_UNSUCCESS);
@@ -38,12 +44,6 @@ const Login = () => {
     //use this to prevent reloading
     const handleSubmit = (e) => {
         e.preventDefault(); 
-
-        dispatch(login({
-            name:name,
-            loggedIn: true,
-            })
-        );
     };
 
     return (

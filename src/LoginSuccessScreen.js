@@ -11,7 +11,7 @@ import { selectUser } from "./userSlice";
 
     return (
         <div className='auth-form-container'>
-            <h2>{ user } Welcome! You have successfully logged in!</h2>
+            <h2>{ user.name }, Welcome! You have successfully logged in!</h2>
             <p>Click here to Sign Out</p>
             <button onClick={returnToLoginFormHandle}>Sign Out</button>
         </div>
@@ -19,4 +19,3 @@ import { selectUser } from "./userSlice";
 }
 
 export default LoginSuccessScreen;
-
