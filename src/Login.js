@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import LoginSuccessScreen from './LoginSuccessScreen';
 import LoginUnsuccessScreen from './LoginUnsuccessScreen';
+import { useDispatch } from 'react-redux';
+import { login, logout } from './userSlice';
 
 const LOGIN = 'abc@mail.com';
-const PASSWORD = 'qwer1234';
+const PASSWORD = 'qw12';
 const STATES = {
     LOGIN_FORM: 'LOGIN_FORM',
     LOGIN_SUCCESS: 'LOGIN_SUCCESS',
@@ -11,6 +13,7 @@ const STATES = {
 };
 
 const Login = () => {
+    const [ name, setName] = useState('');
     const [ email, setEmail] = useState('');
     const [ pass, setPass] = useState('');
     const [currentForm, setCurrentForm] = useState(STATES.LOGIN_FORM);
@@ -18,14 +21,24 @@ const Login = () => {
     // show the conditions for email and password
     const validateForm = () => {
         if (email === LOGIN && pass === PASSWORD) {
+            dispatch(
+                login({
+                    name: name,
+                    loggedIn: true,
+                }),
+            );
             setCurrentForm(STATES.LOGIN_SUCCESS);
         } else {
             setCurrentForm(STATES.LOGIN_UNSUCCESS);
         }
     };
 
+    const dispatch = useDispatch();
+
     const returnToLoginFormHandle = () => {
         setCurrentForm(STATES.LOGIN_FORM);
+
+        dispatch(logout());
     };
 
     //use this to prevent reloading
@@ -39,7 +52,16 @@ const Login = () => {
                 <div className='auth-form-container'>
                     <h2>Login Page</h2>
                     <form className="login-form" onSubmit={handleSubmit}>
-                        <label htmlFor="email">Enter name:</label>
+                    <label htmlFor="name">Enter name:</label>
+                        <input
+                            value={name}
+                            type="name"
+                            placeholder="Name"
+                            id="name"
+                            name="name"
+                            onChange={(e) => setName(e.target.value)}
+                        />
+                        <label htmlFor="email">Enter email:</label>
                         <input
                             value={email}
                             type="email"
