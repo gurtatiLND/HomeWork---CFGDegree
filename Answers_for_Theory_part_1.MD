@@ -18,51 +18,39 @@ Advantages of this principle is in:
 
 #### 4. List out the advantages and disadvantages of exploratory testing (used in Agile) and scripted testing? 
 
-*Exploratory Testing:*
+**Exploratory Testing:**
 
 *List of adv:*
 
  - really good in finding problems with usability and UI;
- 
  - through this testing owners can get insights that are not possible through other types of testing;
-
  - no need special time for preparation;
-
  - can show edge cases that can be used in future testing;
 
 
 *List of disadv:*
 
  - almost no documentation for this process;
-
  - depends on the tester's skills and knowledge in the domain area;
-
  - can take more time than planned;
-
  - tester can easily steer off the plan;
 
 
-*Scripted Testing:*
+
+**Scripted Testing:**
 
 *List of adv:*
 
  - good level of documentation;
-
  - execution is faster;
-
  - can get more reliable results;
-
  - can test more things at one, that is increased scalability;
-
  - tests can run many times, because they can be automated;
 
 
 *List of disadv:*
 
  - the complexity of the process;
-
  - feedback is slower;
-
  - it should be written for every new environment;
-
  - can test the functionality part of application, not GUI elements;
