@@ -25,6 +25,7 @@ This is a reducer function which takes state and action-like parameters, and If 
 #### 1.Can you provide a brief summary on what is happening on line 34, 39?
 
 on line 34: declared a new state variable which is called studentsCount
+
 on line 39: in this line passed a function as the event handler
 
 #### 2.When a user clicks on the “Add student” button update the state (studentsCount) to include only the total number of students who are present. Using the data provided below:
