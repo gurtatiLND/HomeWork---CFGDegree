@@ -46,10 +46,12 @@ console.log(isPalindrome("aa")) // TRUE
       }
     }
     //I hope it will be understandable:
-    // next step I think I should create 2 loops: one will count the missing number, like i=1 and < length, i++ and then 
-    //missing_number I will check in another loop with j starts from 0, j<length -1, j++ and check if the all j won't be the same for this i, 
+    // next step I think I should create 2 loops: one will count the missing number, like i=1 and < length, i++ and missing number=i; 
+    //and then 
+    //I will check in another loop with j starts from 0, j<length -1, j++ and check if the all j won't be the same for this i, 
     // then I will increase the i and start again. 
     //the end will be when I find that no numbers in array are the same like missing number on this level.
+    
 
     // I think it will be the O(N'2) complexity, because of two loops.
 
