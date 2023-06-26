@@ -1,10 +1,5 @@
- This is a new web app for LogIn and LogOut. 
- In this app the user can:
+This is a repo where I keep all my homework for CFG Degree Fullstack Steam. 
 
-+ Users can log in successfully with the correct username and password. 
-
-+ User is redirected to a “logIn unsuccessful” page when the username or password is incorrect.
-
-+ A user should be able to redirect back to the “logIn” page from the “logInunsuccessful” page.
-
-+ When a user has successfully logged in, the user should be able to logout. This should take the user back to the logIn page.
++ Here is a simple app with logIn - logOut forms with applied Redux.
++ My answers to all assessments(theory and practice) throughout the course.
++ Screenshots and images for homework.
